@@ -21,6 +21,23 @@ class ViewController: UIViewController {
         setButton()
         
         testBranchInfoFilter()
+        
+//        var tempClass = Class1()
+//        tempClass.swap(&tempClass.nums, 5, 4)
+//        print("交换数组中两个元素：\(tempClass.nums)")
+        
+//        let result = tempClass.add(input: 10)
+//        let result1 = result(8)
+//        print("柯里化：\(result)  \(result1)")
+        
+        // 正常使用
+//        let card = BankCard()
+//        card.deposit(amount: 100)
+//        print("已存款：\(card.balance)")
+        // 柯里化
+//        let deposit = BankCard.deposit
+//        deposit(card)(100)
+//        print("已存款：\(card.balance)")
     }
     
     func setButton(){
