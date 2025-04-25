@@ -96,6 +96,7 @@ extension CombineDemoViewController{
     func urlTest(){
         guard let url = URL(string: "https://www.baidu.com") else {return}
         let dataTaskPublisher = URLSession.shared.dataTaskPublisher(for: url)
+        
 //        dataTaskPublisher
 //            .map{$0.data}
 //            .decode(type: Post.self, decoder: JSONDecoder())
